@@ -7,5 +7,3 @@ import Lens.Family.TH
 data Foo = Foo { _bar :: Int }
 
 makeLenses ''Foo
-
-f x = 1
