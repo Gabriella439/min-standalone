@@ -12,5 +12,5 @@ Description: This library is a minimal reproducing example for
   https://github.com/feuerbach/standalone-haddock/issues/8
 
 Library
-    Build-Depends: base, lens-family-th
+    Build-Depends: base, lens-family, lens-family-th
     Exposed-Modules: Reproduce.StandaloneHaddock
