@@ -1,0 +1,16 @@
+Name: min-standalone
+Version: 1.0.0
+Cabal-Version: >=1.8.0.2
+Build-Type: Simple
+License: BSD3
+License-File: LICENSE
+Copyright: 2015 Gabriel Gonzalez
+Author: Gabriel Gonzalez
+Maintainer: Gabriel439@gmail.com
+Synopsis: Minimal reproducing case for standalone-haddock issue
+Description: This library is a minimal reproducing example for
+  https://github.com/feuerbach/standalone-haddock/issues/8
+
+Library
+    Build-Depends: base, lens-family-th
+    Exposed-Modules: Reproduce.StandaloneHaddock
